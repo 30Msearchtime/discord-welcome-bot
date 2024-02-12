@@ -1,0 +1,14 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "Ez welcome bot for ur discord server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "30Msearchtime",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
