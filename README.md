@@ -34,14 +34,16 @@ Create a config.js file in the root directory with the following structure:
 // config.js
 module.exports = {
   token: 'YOUR_BOT_TOKEN',
-  prefix: '!',
   welcomeChannelId: 'WELCOME_CHANNEL_ID',
   leaveChannelId: 'LEAVE_CHANNEL_ID',
   welcomeMessage: 'Welcome to the server, {user}!',
+  dmWelcomeMessage: 'Hello {user}, welcome to our Discord server!',
   leaveMessage: 'Sorry to see you go, {user}!',
+  dmLeaveMessage: 'It's sad to see you leave, {user}. Hope to see you back soon!',
   bannerUrl: 'YOUR_BANNER_URL',
   iconUrl: 'YOUR_ICON_URL'
 };
+
 ```
 Replace the placeholders with your actual Discord bot token, channel IDs, and URLs as needed.
 
@@ -56,9 +58,10 @@ The bot should now be running and ready to welcome new members or bid farewell t
 
 ## Features
 
-Sends customizable embedded messages to welcome new members and say goodbye to those leaving.
-Supports custom banner and icon URLs for embed messages.
-Configurable welcome and leave messages.
+- Sends customizable embedded messages to welcome new members and say goodbye to those leaving in the server.
+- Directly messages new members with a customizable welcome message and departing members with a farewell.
+- Supports custom banner and icon URLs for embed messages.
+- Configurable welcome and leave messages for both server channels and direct messages.
 Displays a custom status for the bot.
 For more detailed information about Discord.js and its features, visit the Discord.js Guide.
 
