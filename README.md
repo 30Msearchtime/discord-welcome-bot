@@ -40,8 +40,8 @@ module.exports = {
   dmWelcomeMessage: 'Hello {user}, welcome to our Discord server!',
   leaveMessage: 'Sorry to see you go, {user}!',
   dmLeaveMessage: 'It's sad to see you leave, {user}. Hope to see you back soon!',
-  bannerUrl: 'YOUR_BANNER_URL',
-  iconUrl: 'YOUR_ICON_URL'
+  bannerUrl: '', // YOUR_BANNER_URL
+  iconUrl: '' // YOUR_ICON_URL
 };
 
 ```
