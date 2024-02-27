@@ -6,6 +6,8 @@ module.exports = {
   leaveChannelId: 'LEAVE_CHANNEL_ID',
   welcomeMessage: 'Welcome to the server, {user}!',
   leaveMessage: 'Sorry to see you go, {user}!',
-  bannerUrl: 'YOUR_BANNER_URL',
-  iconUrl: 'YOUR_ICON_URL'
+  dmWelcomeMessage: 'Welcome to the server, {user}!', // 
+  dmLeaveMessage: 'Sorry to see you go, {user}!',
+  bannerUrl: '', // YOUR_BANNER_URL
+  iconUrl: '' // YOUR_ICON_URL
 };
