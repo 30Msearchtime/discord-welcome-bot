@@ -81,7 +81,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-30Msearchtime - [Discord](https://discord.com/users/426081591832346624) - toolbotsystem@gmail.com
-
-
-Discord Welcome Bot - [Project Link](https://github.com/30Msearchtime/discord-welcome-bot)
+- [30Msearchtime](https://github.com/30Msearchtime)
+- [Discord](https://discord.com/users/426081591832346624)
+- toolbotsystem@gmail.com
