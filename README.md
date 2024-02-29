@@ -69,11 +69,11 @@ The bot should now be running and ready to welcome new members or bid farewell t
 - Toggleable direct messaging and channel messaging features through the config file.
 
 
-For more detailed information about Discord.js and its features, visit the Discord.js Guide.
+For more detailed information about Discord.js and its features, visit the [Discord.js Guide](https://discordjs.guide/#before-you-begin).
 
 ## Contributing
 
-Contributions to the Discord Welcome Bot are welcome. Please open an issue first to discuss what you would like to change or improve.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/30Msearchtime/discord-welcome-bot/issues).
 
 ## License
 
@@ -83,4 +83,4 @@ Distribute under the MIT License. See LICENSE for more information.
 
 30Msearchtime - toolbotsystem@gmail.com
 
-Project Link: https://github.com/30Msearchtime/discord-welcome-bot
+Discord Welcome Bot - [Project Link](https://github.com/30Msearchtime/discord-welcome-bot)
