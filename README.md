@@ -41,9 +41,12 @@ module.exports = {
   leaveMessage: 'Sorry to see you go, {user}!',
   dmLeaveMessage: 'It's sad to see you leave, {user}. Hope to see you back soon!',
   bannerUrl: '', // YOUR_BANNER_URL
-  iconUrl: '' // YOUR_ICON_URL
+  iconUrl: '', // YOUR_ICON_URL
+  sendWelcomeDM: true, // Set to false to disable welcome DMs
+  sendLeaveDM: true, // Set to false to disable leave DMs
+  sendWelcomeChannelMessage: true, // Set to false to disable welcome messages in the channel
+  sendLeaveChannelMessage: true // Set to false to disable leave messages in the channel
 };
-
 ```
 Replace the placeholders with your actual Discord bot token, channel IDs, and URLs as needed.
 
@@ -62,7 +65,10 @@ The bot should now be running and ready to welcome new members or bid farewell t
 - Directly messages new members with a customizable welcome message and departing members with a farewell.
 - Supports custom banner and icon URLs for embed messages.
 - Configurable welcome and leave messages for both server channels and direct messages.
-Displays a custom status for the bot.
+- Displays a custom status for the bot.
+- Toggleable direct messaging and channel messaging features through the config file.
+
+
 For more detailed information about Discord.js and its features, visit the Discord.js Guide.
 
 ## Contributing
